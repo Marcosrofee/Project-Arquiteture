@@ -1,0 +1,63 @@
+.button {
+    border-radius: 18px;
+    border: none;
+    column-gap: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+    transition: background-color 0.3s ease;
+}
+
+/* Primário*/
+
+.button.primary {
+    background-color: #0cc0f2;
+    color: white;
+}
+.button.primary:hover {
+    background-color: #0056B3;
+}
+/*Botão Secundário*/
+
+.button.secondary {
+background-color: #1D1D1D;
+color: white;
+}
+
+.button.secondary:hover {
+background-color: #4D4D4D;
+}
+/*Botão Outline*/
+
+.button.outline {
+background-color: white;
+color: #0cc0f2;
+border: 2px solid #0cc0f2;
+}
+
+.button.outline:hover {
+background-color: #0cc0f2;
+color: white;
+}
+/*Botão Desabilitado*/
+
+.button:disabled,
+.button.disabled {
+background-color: #CCCCCC;
+color: #666666;
+cursor: not-allowed;
+}
+
+.button:disabled:hover,
+.button.disabled:hover {
+background-color: #CCCCCC;
+}
+.button.unstled{
+    width: 10px;
+    height: 10px;
+    background: none;
+    margin-left: -50px;
+    margin-top: -80px;    
+}
